@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<section class="productions">
+    <h1 class="text-center py-5 text-white boxhead ">Add Your product</h1>
+    <div class="container py-5">
+        <input type="text" placeholder="Search .." class="form-control w-75  m-auto" id="searchInp" />
+        <div class="row" id="searchRow"></div>
+    </div>
+    <div class="container py-5">
+        <div id="alertContainer" class="alert alert-danger"></div>
+
+        <div class="form-group">
+            <label>Product Name :</label>
+            <input class="form-control" type="text" id="pName" />
+        </div>
+
+        <div class="form-group">
+            <label>Product price :</label>
+
+            <input class="form-control" type="text" id="pPrice" />
+        </div>
+        <div class="form-group">
+            <label>Product Company :</label>
+
+            <input class="form-control" type="text" id="pCompany" />
+        </div>
+        <div class="form-group">
+            <label>Product description :</label>
+
+            <textarea class="form-control" id="pDes"></textarea>
+        </div>
+        <button class=" btn btn-success float-right" id="addBtn">add product</button>
+        <div class="row" id="rowData"></div>
+
+    </div>
+</section>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

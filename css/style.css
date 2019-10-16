@@ -1,0 +1,13 @@
+.productions{
+    background: rgb(228, 225, 225);
+}
+
+h1{
+    background: #222;
+    box-shadow: #555 10px 0px 5px;
+}
+
+
+#alertContainer {
+    display: none;
+}
